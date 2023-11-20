@@ -161,7 +161,6 @@ body {
     text-align: center;
 }
 /* SECCIÓN NOSOTROS */
-
 .nosotros-section {
     padding: 80px 0;
     background-color: #1E1E1E;
@@ -172,12 +171,21 @@ body {
     top: 100%; 
     width: 100%; 
 }
+
 .nosotros-section h1 {
-    font-size: 2em; /* Tamaño del encabezado */
-    margin-bottom: 20px; /* Espacio inferior */
+    font-size: 2em; 
+    margin-bottom: 20px; 
 }
+
 .nosotros-section p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #FFFFFF;
+    font-family: "Assistant", sans-serif; 
+    font-size: 15px; 
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.019em;
+    text-align: center;
+    /* Layout */
+    width: 682px;
+    height: 115px;
+    margin: 0 auto; /* Centrar horizontalmente */
 }
