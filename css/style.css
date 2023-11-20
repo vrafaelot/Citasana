@@ -162,6 +162,7 @@ body {
 }
 /* SECCIÓN NOSOTROS */
 .nosotros-section {
+    font-family: "Balsamiq Sans Regular";
     padding: 80px 0;
     background-color: #1E1E1E;
     font-size: 64px;
@@ -178,14 +179,49 @@ body {
 }
 
 .nosotros-section p {
-    font-family: "Assistant", sans-serif; 
+    font-family: "Assistant ExtraLight";
     font-size: 15px; 
     font-weight: 400;
     line-height: 23px;
     letter-spacing: -0.019em;
     text-align: center;
-    /* Layout */
     width: 682px;
     height: 115px;
-    margin: 0 auto; /* Centrar horizontalmente */
+    margin: 0 auto;
+}
+/*MISION - VISION*/
+.mision-vision {
+    padding: 80px 0;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.mision,
+.vision {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.imagen-14 {
+    width: 400px;
+    height: 243px;
+    /* Otros estilos si los necesitas */
+}
+.mision p,
+.vision p {
+    margin-bottom: 0; /* Evita el espacio extra debajo del párrafo */
+}
+
+.images {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.images img {
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
 }
