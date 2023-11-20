@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Balsamiq Sans Regular";
+    src: url("https://db.onlinewebfonts.com/t/6fa8408b1af234380e3d6860b3d7f417.eot");
+    src: url("https://db.onlinewebfonts.com/t/6fa8408b1af234380e3d6860b3d7f417.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6fa8408b1af234380e3d6860b3d7f417.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6fa8408b1af234380e3d6860b3d7f417.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6fa8408b1af234380e3d6860b3d7f417.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6fa8408b1af234380e3d6860b3d7f417.svg#Balsamiq Sans Regular")format("svg");
+}
+@font-face {
+    font-family: "Amaranth";
+    src: url("https://db.onlinewebfonts.com/t/a23d9c1bf0c1c703356108c0dba4a72c.eot");
+    src: url("https://db.onlinewebfonts.com/t/a23d9c1bf0c1c703356108c0dba4a72c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a23d9c1bf0c1c703356108c0dba4a72c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a23d9c1bf0c1c703356108c0dba4a72c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a23d9c1bf0c1c703356108c0dba4a72c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a23d9c1bf0c1c703356108c0dba4a72c.svg#Amaranth")format("svg");
+}
+@font-face {
+    font-family: "Assistant ExtraLight";
+    src: url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.eot");
+    src: url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.svg#Assistant ExtraLight")format("svg");
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar img {
+    float: left;
+    width: 48px;
+    height: 49px;
+    margin-left: 43px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 118px;
+}
+
+.navbar {
+    position: relative;
+    overflow: hidden;
+    background-color: #7bc6c2;
+}
+
+.navbar a {
+    padding-left: 118px;
+    padding: 20px;
+    margin: 20px 11px;
+    margin-right: 64px;
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Balsamiq Sans Regular";
+}
+
+/* Botones login y register */
+
+.right-button-login {
+    float: right;
+}
+
+.right-button-registrarse {
+    float: right;
+}
+
+.right-button-login button {
+    font-family: "Balsamiq Sans Regular";
+    font-size: 20px;
+    width: 72px; 
+    height: 53px; 
+    background-color: #2abec1;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 11px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.right-button-registrarse button {
+    font-family: "Balsamiq Sans Regular";
+    font-size: 20px;
+    width: 128px;
+    height: 53px; 
+    background-color: #629AB9;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 11px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cita Sana */
+
+.citasana {
+    background-image: url('/img/image 10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 94px;
+    left: -0.5px;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    height: 100vh;
+}
+
+.citasana img {
+    position: absolute;
+    left: -0.5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-citasana {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-citasana h1 {
+    margin: 0 0 25px 0;
+    color: #000;
+    font-size: 64px;
+    font-family: "Amaranth";
+}
+
+.text-citasana h2 {
+    margin: 67px 0; 
+    color: #000;
+    font-size: 48px;
+    font-family: "Assistant ExtraLight";
+}
+
+.text-citasana p {
+    margin: 20px 0 0 0; 
+    color: #0F5397;
+    font-family: "Amaranth";
+    font-size: 20px;
+    text-align: center;
+}
+/* SECCIÓN NOSOTROS */
+
+.nosotros-section {
+    padding: 80px 0;
+    background-color: #1E1E1E;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    top: 100%; 
+    width: 100%; 
+}
+.nosotros-section h1 {
+    font-size: 2em; /* Tamaño del encabezado */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+.nosotros-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
