@@ -334,6 +334,17 @@ body {
 /*end-page*/
 .end-page {
     background: linear-gradient(to bottom, #212429 94%, rgba(33, 36, 41, 0) 97%);
+    display: flex;
+}
+
+.column-left {
+    flex: 1; /* Ocupar el 50% del espacio disponible */
+    padding-right: 20px; /* Espaciado entre columnas */
+}
+
+.column-right {
+    flex: 1; /* Ocupar el 50% del espacio disponible */
+    padding-left: 20px; /* Espaciado entre columnas */
 }
 
 @media screen and (max-width: 1024px) {
