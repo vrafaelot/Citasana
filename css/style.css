@@ -25,7 +25,24 @@
     url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/14e11fa3fc767018ce1b14764f6daaa7.svg#Assistant ExtraLight")format("svg");
 }
-
+@font-face {
+    font-family: "Be Vietnam Medium";
+    src: url("https://db.onlinewebfonts.com/t/13d599a6b128b2a589e1d83a8f945265.eot");
+    src: url("https://db.onlinewebfonts.com/t/13d599a6b128b2a589e1d83a8f945265.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/13d599a6b128b2a589e1d83a8f945265.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/13d599a6b128b2a589e1d83a8f945265.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/13d599a6b128b2a589e1d83a8f945265.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/13d599a6b128b2a589e1d83a8f945265.svg#Be Vietnam Medium")format("svg");
+}
+@font-face {
+    font-family: "Assistant-Regular";
+    src: url("https://db.onlinewebfonts.com/t/88e211ded7f38a7034c9c2cc3c3d8807.eot");
+    src: url("https://db.onlinewebfonts.com/t/88e211ded7f38a7034c9c2cc3c3d8807.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/88e211ded7f38a7034c9c2cc3c3d8807.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/88e211ded7f38a7034c9c2cc3c3d8807.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/88e211ded7f38a7034c9c2cc3c3d8807.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/88e211ded7f38a7034c9c2cc3c3d8807.svg#Assistant-Regular")format("svg");
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -162,7 +179,6 @@ body {
 /* SECCIÓN NOSOTROS */
 .nosotros-section {
     font-family: "Balsamiq Sans Regular";
-
     background-color: #1E1E1E;
     font-size: 64px;
     color: #FFFFFF;
@@ -173,12 +189,11 @@ body {
 }
 
 .nosotros-section h1 {
-    font-size: 2em; 
     margin-bottom: 20px; 
 }
 
 .nosotros-section p {
-    font-family: "Assistant ExtraLight";
+    font-family: "Assistant-Regular";
     font-size: 15px; 
     font-weight: 400;
     line-height: 23px;
@@ -210,8 +225,6 @@ body {
 .imagen-16 {
     width: 400px;
     height: 243px;
-
-    /* Otros estilos si los necesitas */
 }
 
 .imagen-18,
@@ -224,7 +237,8 @@ body {
 .mision h2,
 .vision h2{
     color: #3CCAB6;
-    font-size: 24px; 
+    font-size: 24px;
+    text-align: left;
 }
 
 .images {
@@ -243,26 +257,29 @@ body {
     color: #6A6D77;
     text-align: center;
 }
-.valores h2{
+.valores-text h2{
     font-family: "Balsamiq Sans Regular";
     color: #BFC8D1;
-    size: 48px;
+    font-size: 48px;
     width: 50%;
     display: inline-block;
     vertical-align: top;
-    padding: 40px 20px;
     box-sizing: border-box;
+    margin: 40px;
+    padding: 42px;
 }
-.valores p{
-    color: #6A6D77;
-    
-    size: 24px;
+.valores-text p {
+    font-family: "Be Vietnam Medium";
+    font-size: 24px;
+    width: 900px;
+    height: 165px;
+    padding: 0px;
 }
 /*Contactos*/
 .contactos {
     background-color: #26292E;
     color: #FFFFFF;
-    size: 53px; 
+    font-size: 53px;
 }
 .n-med {
     width: 356px;
